@@ -1,0 +1,67 @@
+{
+
+  "mcpServers": {
+
+    "wazuh": {
+
+      "command": "/home/tina888/Downloads/mcp-server-wazuh/mcp-server-wazuh/target/release/mcp-server-wazuh",
+
+      "args": [],
+
+      "env": {
+
+        "WAZUH_API_HOST": "127.0.0.1",
+
+        "WAZUH_API_PORT": "55000",
+
+        "WAZUH_API_USERNAME": "admin",
+
+        "WAZUH_API_PASSWORD": "SecretPassword",
+
+
+
+        "WAZUH_INDEXER_HOST": "127.0.0.1",
+
+        "WAZUH_INDEXER_PORT": "9200",
+
+        "WAZUH_INDEXER_USERNAME": "admin",
+
+        "WAZUH_INDEXER_PASSWORD": "SecretPassword",
+
+
+
+        "WAZUH_VERIFY_SSL": "false",
+
+        "WAZUH_PROTOCOL": "https",
+
+
+
+        "WAZUH_ALERTS_FORMAT": "json",
+
+        "WAZUH_ALERTS_LOG": "/var/ossec/logs/ossec.log",
+
+        "WAZUH_ACTIVE_RESPONSE_LOG": "/var/ossec/logs/active-responses.log",
+
+
+
+        "WAZUH_RULES_DIR": "/var/ossec/etc/rules",
+
+        "WAZUH_DECODERS_DIR": "/var/ossec/etc/decoders",
+
+
+
+        "WAZUH_MANAGER_ROLE": "standalone",
+
+        "WAZUH_CLUSTER_ENABLED": "false",
+
+
+
+        "RUST_LOG": "info"
+
+      }
+
+    }
+
+  }
+
+}
