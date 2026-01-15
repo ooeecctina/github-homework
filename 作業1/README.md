@@ -34,10 +34,13 @@ sudo dpkg -i claude-desktop_1.0.3218_amd64.deb
 sudo apt --fix-broken install				# fix install fail issue
 ```
 4. Modify claude_desktop_config.json
+claude_desktop_connfig.json<br>
+-->[https://github.com/ooeecctina/github-homework/blob/main/%E4%BD%9C%E6%A5%AD1/claude_desktop_config.json](url)<br>
+```c
 gedit ~/.config/Claude/claude_desktop_config.json
-
+```
+```c
 {
-
   "mcpServers": {
     "wazuh": {
       "command": "/home/tina888/Downloads/mcp-server-wazuh/mcp-server-wazuh/target/release/mcp-server-wazuh",		# your mcp-server-qazuh execute file
@@ -65,10 +68,12 @@ gedit ~/.config/Claude/claude_desktop_config.json
     }
   }
 }
-
-====== 啟動 Claude Desktop ======
+```
+啟動 Claude Desktop
+```c
 claude-desktop
-github.com
+```
+![image]
 
 
 
