@@ -66,13 +66,14 @@ sudo systemctl start wazuh-agent
 ## Step3: Wazuh dashboard show the pfsense log message<br>
 <br>
 以下是pfsense log截圖的畫面
-# 這是我的專案
 
-[![我的 Logo](https://raw.githubusercontent.com/myusername/myproject/main/images/logo.png)](https://www.example.com)
-
+[![我的 Logo](https://github.com/ooeecctina/github-homework/blob/main/%E4%BD%9C%E6%A5%AD2/pfsense%20log%20%E6%88%AA%E5%9C%96%E7%95%AB%E9%9D%A2.png)](https://www.example.com)
 
 
-以下是Wazuh 攔截pfsense 的畫面
+以下是Wazuh 攔截pfsense log的畫面
+
+
+
 [![我的 Logo](https://github.com/ooeecctina/github-homework/blob/main/%E4%BD%9C%E6%A5%AD2/Wazuh%E6%94%94%E6%88%AApfsense%E7%95%AB%E9%9D%A2.png)
 
 
