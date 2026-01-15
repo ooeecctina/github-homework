@@ -1,35 +1,35 @@
 # MCP server 與 Claude desktop 安裝與執行
 ***
 ## MCP server 安裝與執行<br>
-1.Download mcp server files
+### 1.Download mcp server files
 ```c
 git clone https://github.com/gbrigandi/mcp-server-wazuh.git
 cd mcp-server-wazuh
 sudo apt install cargo
 ```
-2.Install Rust
+### 2.Install Rust
 ```c
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
-3.Build with stdio transport only (default)
-##### openssl-sys 需要用 C 編譯工具鏈 來編譯 OpenSSL
+### 3.Build with stdio transport only (default)
+#### openssl-sys 需要用 C 編譯工具鏈 來編譯 OpenSSL
 ```c
 sudo apt update
 sudo apt install -y build-essential pkg-config libssl-dev
 source $HOME/.cargo/env
 cargo build --release
 ```
-4.Build with HTTP transport support
+### 4.Build with HTTP transport support
 ```c
 cargo build --release --features http ''
 ```
 ***
 ## Claude desktop 安裝與執行<br>
-step1
+### step1
 ```c
 curl -fsSL https://claude.ai/install.sh | bash
 ```
-step2.download claude desktop deb package **"claude-desktop_1.0.3218_amd64.deb"** on websit<br>
+### step2.download claude desktop deb package **"claude-desktop_1.0.3218_amd64.deb"** on websit<br>
   --> <https://github.com/aaddrick/claude-desktop-debian/releases?utm_source=chatgpt.com><br>
   <br>
 以下是要選擇的claude desktop deb file download link
@@ -38,7 +38,7 @@ step2.download claude desktop deb package **"claude-desktop_1.0.3218_amd64.deb"*
 sudo dpkg -i claude-desktop_1.0.3218_amd64.deb
 sudo apt --fix-broken install				# fix install fail issue
 ```
-step3.Modify claude_desktop_config.json
+### step3.Modify claude_desktop_config.json
 claude_desktop_connfig.json<br>
 --><https://github.com/ooeecctina/github-homework/blob/main/%E4%BD%9C%E6%A5%AD1/claude_desktop_config.json><br>
 ```c
@@ -74,7 +74,7 @@ gedit ~/.config/Claude/claude_desktop_config.json
   }
 }
 ```
-step4.啟動 Claude Desktop
+### step4.啟動 Claude Desktop
 ```c
 claude-desktop
 ```
