@@ -1,12 +1,12 @@
 # MCP server 與 Claude desktop 安裝與執行
-**MCP server 安裝與執行**
+**MCP server 安裝與執行**<br>
 1.Download mcp server files
 ```c
 git clone https://github.com/gbrigandi/mcp-server-wazuh.git
 cd mcp-server-wazuh
 sudo apt install cargo
 ```
-2. Install Rust
+2.Install Rust
 ```c
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
@@ -22,14 +22,14 @@ cargo build --release
 ```c
 cargo build --release --features http ''
 ```
-**Claude desktop 安裝與執行**
-1.
+**Claude desktop 安裝與執行**<br>
+step1
 ```c
 curl -fsSL https://claude.ai/install.sh | bash
 ```
 2.download claude desktop deb package "claude-desktop_1.0.3218_amd64.deb" on websit<br>
   --> [https://github.com/aaddrick/claude-desktop-debian/releases?utm_source=chatgpt.com](url)<br>
-以下是要選擇的claude desktop deb file download link
+**以下是要選擇的claude desktop deb file download link**
 ![claude desktop deb file download link](https://github.com/ooeecctina/github-homework/blob/main/%E4%BD%9C%E6%A5%AD1/claude%20desktop%20deb%20file%20download%20link.png)
 ```c
 sudo dpkg -i claude-desktop_1.0.3218_amd64.deb
@@ -75,8 +75,8 @@ gedit ~/.config/Claude/claude_desktop_config.json
 ```c
 claude-desktop
 ```
-以下是claude desktop 啟動成功的畫面
-![照片]
+**以下是claude desktop 啟動成功的畫面**
+![照片](https://github.com/ooeecctina/github-homework/blob/main/%E4%BD%9C%E6%A5%AD1/claude%20desktop%E5%95%9F%E5%8B%95%E6%88%90%E5%8A%9F%E6%88%AA%E5%9C%96.png)
 
 
 
