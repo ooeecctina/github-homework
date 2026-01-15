@@ -1,5 +1,6 @@
 # MCP server 與 Claude desktop 安裝與執行
-**MCP server 安裝與執行**<br>
+***
+## MCP server 安裝與執行<br>
 1.Download mcp server files
 ```c
 git clone https://github.com/gbrigandi/mcp-server-wazuh.git
@@ -22,14 +23,16 @@ cargo build --release
 ```c
 cargo build --release --features http ''
 ```
-**Claude desktop 安裝與執行**<br>
+***
+## Claude desktop 安裝與執行<br>
 step1
 ```c
 curl -fsSL https://claude.ai/install.sh | bash
 ```
-2.download claude desktop deb package "claude-desktop_1.0.3218_amd64.deb" on websit<br>
+2.download claude desktop deb package **"claude-desktop_1.0.3218_amd64.deb"** on websit<br>
   --> [https://github.com/aaddrick/claude-desktop-debian/releases?utm_source=chatgpt.com](url)<br>
-**以下是要選擇的claude desktop deb file download link**
+  <br>
+以下是要選擇的claude desktop deb file download link
 ![claude desktop deb file download link](https://github.com/ooeecctina/github-homework/blob/main/%E4%BD%9C%E6%A5%AD1/claude%20desktop%20deb%20file%20download%20link.png)
 ```c
 sudo dpkg -i claude-desktop_1.0.3218_amd64.deb
