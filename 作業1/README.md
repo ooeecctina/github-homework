@@ -40,7 +40,7 @@ sudo apt --fix-broken install				# fix install fail issue
 ```
 4. Modify claude_desktop_config.json
 claude_desktop_connfig.json<br>
--->[https://github.com/ooeecctina/github-homework/blob/main/%E4%BD%9C%E6%A5%AD1/claude_desktop_config.json](url)<br>
+--><https://github.com/ooeecctina/github-homework/blob/main/%E4%BD%9C%E6%A5%AD1/claude_desktop_config.json><br>
 ```c
 gedit ~/.config/Claude/claude_desktop_config.json
 ```
