@@ -63,7 +63,9 @@ sudo systemctl daemon-reload
 sudo systemctl enable wazuh-agent
 sudo systemctl start wazuh-agent
 ```
-## Step3: Wazuh dashboard show the pfsense log message 
+## Step3: Wazuh dashboard show the pfsense log message<br>
+<br>
+![照片](https://github.com/ooeecctina/github-homework/blob/main/%E4%BD%9C%E6%A5%AD2/Wazuh%E6%94%94%E6%88%AApfsense%E7%95%AB%E9%9D%A2.png)
 
 
 
