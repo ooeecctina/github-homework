@@ -65,8 +65,9 @@ sudo systemctl start wazuh-agent
 ```
 ## Step3: Wazuh dashboard show the pfsense log message<br>
 <br>
-![替代文字](https://github.com/ooeecctina/github-homework/blob/main/%E4%BD%9C%E6%A5%AD2/Wazuh%E6%94%94%E6%88%AApfsense%E7%95%AB%E9%9D%A2.png)
 
+以下是Wazuh 攔截pfsense 的畫面
+[![我的 Logo](https://github.com/ooeecctina/github-homework/blob/main/%E4%BD%9C%E6%A5%AD2/Wazuh%E6%94%94%E6%88%AApfsense%E7%95%AB%E9%9D%A2.png)
 
 
 
