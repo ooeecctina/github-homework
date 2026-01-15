@@ -30,7 +30,7 @@ step1
 curl -fsSL https://claude.ai/install.sh | bash
 ```
 2.download claude desktop deb package **"claude-desktop_1.0.3218_amd64.deb"** on websit<br>
-  --> [https://github.com/aaddrick/claude-desktop-debian/releases?utm_source=chatgpt.com](url)<br>
+  --> <https://github.com/aaddrick/claude-desktop-debian/releases?utm_source=chatgpt.com><br>
   <br>
 以下是要選擇的claude desktop deb file download link
 ![claude desktop deb file download link](https://github.com/ooeecctina/github-homework/blob/main/%E4%BD%9C%E6%A5%AD1/claude%20desktop%20deb%20file%20download%20link.png)
