@@ -44,7 +44,7 @@ cd ~/Downloads
 > WAZUH_AGENT_NAME='Ubuntu-pfSensor' dpkg -i ./wazuh-agent.deb<br>
 
 3. Open /var/ossec/etc/ossec.conf file and add a locafile for pfsense
-  
+  --->
  ```c
  nano /var/ossec/etc
 ```
